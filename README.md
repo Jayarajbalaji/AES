@@ -27,7 +27,6 @@ char url[] = "JAYARAJ";
 char key[] = "secretkey"; 
 
 printf("Original text: %s\n", url);
-
 xor_encrypt_decrypt(url, key);
 printf("Encrypted text: %s\n", url);
 
